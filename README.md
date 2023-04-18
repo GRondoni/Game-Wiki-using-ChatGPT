@@ -32,34 +32,34 @@ Para instalar e executar a aplicação, siga as instruções abaixo:
 1. Clone este repositório para sua máquina local.
 2. Instale as dependências do projeto utilizando o gerenciador de pacotes pip:
 
-'''
+```
 pip install -r requirements.txt
 
-'''
+```
 
 3. Crie um arquivo .env na raiz do projeto e adicione as seguintes variáveis de ambiente:
 
-'''makefile
+```makefile
  FLASK_APP=app.py
 FLASK_ENV=development
 SECRET_KEY=sua_chave_secreta_aqui
 OPENAI_API_KEY=sua_api_key_aqui
 
-'''
+```
 4. Crie o banco de dados utilizando o comando abaixo:
 
-'''csharp
+```csharp
 flask db init
 flask db migrate
 flask db upgrade
-'''
+```
 
 5. Execute a aplicação utilizando o comando abaixo:
 
-'''arduino
+```arduino
 flask run
 
-'''
+```
 
 6. Acesse a aplicação no seu navegador utilizando o endereço http://localhost:5000.
 
@@ -73,19 +73,19 @@ Para contribuir com o projeto, siga as instruções abaixo:
 
 2. Crie um novo branch para sua contribuição:
 
-'''css
+```css
 git checkout -b minha_contribuicao
-'''
+```
 
 3.  Faça suas alterações e commit as mudanças:
-'''sql
+```sql
 git commit -m "Minha contribuição"
-'''
+```
 
 4. Envie seu branch para o repositório forkado:
-'''pearl
+```pearl
 git push origin minha_contribuicao
-'''
+```
 
 5. Crie um pull request.
 ## Licença
